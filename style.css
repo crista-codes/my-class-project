@@ -39,6 +39,46 @@ header{
   background:#b7b7b7;
 }
 
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+@media (min-width: 768px) {
+  header {
+    background-color: #F0F8FF;
+  }
+  #column-1 {
+    background-color: #00FFFF;
+  }
+  #column-2 {
+    background-color: #FAEBD7;
+  }
+  #column-3 {
+    background-color: #7FFFD4;
+  }
+  footer {
+    background-color: #F0F8FF;
+  }
+}
+ 
+ 
+/*---------- Monitors ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color: #556B2F;
+  }
+  #column-1 {
+    background-color: #9932CC;
+  }
+  #column-2 {
+    background-color: #8B008B;
+  }
+  #column-3 {
+    background-color: #9932CC;
+  }
+  footer {
+    background-color: #556B2F;
+  }
+ 
+}
 
 /*---------- FOOTER ----------*/
 
